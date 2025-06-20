@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COCOSHAKE - Coco Artisan Ice Cream & Gelato</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  />
+
+  <!-- Link SwiperJS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- Header Section Starts -->
+  <header>
+    <input type="checkbox" name="" id="toggler" />
+    <label for="toggler" class="bi bi-list"></label>
+
+    <a href="#">
+      <img src="/assets/logo/logo-2.png" href="#home" alt="Logo" class="logo" />
+    </a>
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#testimonial">Testimonial</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="komen-div">
+      <a href=""  id="openChatModal">
+        <img src="/assets/icon/Chattt green.png" class="icon-chat" alt="Open Chat" />
+      </a>
+    </div>
+  </header>
+  <!-- Header Section Ends -->
+
+  <!-- Home Section Starts -->
+  <section class="home" id="home">
+    <div class="content">
+      <h3><span class="welcome-title">WELCOME TO</span></h3>
+      <h3><span class="coco-main">COCO</span>SHAKE</h3>
+      <p class="sub-title">Artisan Ice Cream & Gelato</p>
+      <p class="tagline">
+        Indulge in the creamy goodness of our artisanal ice cream and gelato, made with love and the finest
+        ingredients. Treat yourself to a scoop of happiness today!
+      </p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+  <!-- Home Section Ends -->
+
+  <!-- About Section Starts -->
+  <section class="about" id="about">
+    <h1 class="heading">About Us</h1>
+
+    <div class="row">
+      <div class="image">
+        <img src="/assets/img/about.jpg" alt="About Us" />
+      </div>
+
+      <div class="content">
+        <h3>Why Choose Us?</h3>
+        <p>
+          COCOSHAKE was born on campus — inspired by the everyday cravings of students looking for a quick, sweet
+          escape between classes. As fellow students juggling lectures and deadlines, we often found comfort in
+          sharing ice cream with friends. That simple joy sparked an idea: what if we created a place where students
+          could enjoy affordable, high-quality gelato without leaving school?
+        </p>
+        <p>
+          With that vision, we launched COCOSHAKE, a gelato shop that puts flavor and freshness first. Every scoop is
+          handcrafted in small batches using locally sourced ingredients whenever possible — from rich chocolate to
+          playful favorites like pandan, corn, and strawberry. Our goal is to offer not just great taste, but a fun and
+          relaxing break from student life.
+        </p>
+        <p>
+          At COCOSHAKE, we don&#39;t just serve gelato, <br />
+          We serve memories in every scoop.
+        </p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- About Section Ends -->
+
+  <!-- Artisan Ice Cream Section Starts -->
+  <section class="menu" id="menu">
+    <h1 class="heading">Artisan Ice Cream</h1>
+
+    <div id="artisan" class="slider-section">
+      <button class="arrow left">&#10094;</button>
+
+      <div class="slider">
+        <div class="box-container">
+          <div class="box">
+            <span class="new">Best Seller</span>
+            <div class="image">
+              <img src="/assets/artisan/nutella.jpg" alt="Nutella" />
+            </div>
+            <div class="content">
+              <h3>Nutella</h3>
+              <div class="price">Rp13.000,-</div>
+              <p>Creamy blend of chocolate and hazelnut that melts in your mouth.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <span class="new">Best Seller</span>
+            <div class="image">
+              <img src="/assets/artisan/biscoff.jpg" alt="Biscoff" />
+            </div>
+            <div class="content">
+              <h3>Biscoff</h3>
+              <div class="price">Rp13.000,-</div>
+              <p>Caramelized cookie goodness in every scoop.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="/assets/artisan/blueberry.jpg" alt="Blueberry Cheese" />
+            </div>
+            <div class="content">
+              <h3>Blueberry Cheese</h3>
+              <div class="price">Rp13.000,-</div>
+              <p>Cheesecake base with bursts of real blueberry flavor.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="/assets/artisan/durian.jpg" alt="Durian" />
+            </div>
+            <div class="content">
+              <h3>Durian</h3>
+              <div class="price">Rp13.000,-</div>
+              <p>Bold, creamy, and unmistakably durian.</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="/assets/artisan/matcha.jpg" alt="Matcha" />
+            </div>
+            <div class="content">
+              <h3>Matcha</h3>
+              <div class="price">Rp13.000,-</div>
+              <p>Made with premium Japanese green tea powder.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="/assets/artisan/oreo.jpg" alt="Oreo" />
+            </div>
+            <div class="content">
+              <h3>Oreo</h3>
+              <div class="price">Rp13.000,-</div>
+              <p>Cookies-and-cream classic loaded with crunchy Oreo bits.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="/assets/artisan/strawberry.jpg" alt="Strawberry Cheese" />
+            </div>
+            <div class="content">
+              <h3>Strawberry Cheese</h3>
+              <div class="price">Rp13.000,-</div>
+              <p>Cheesecake swirled with sweet strawberry ripples.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="arrow right">&#10095;</button>
+    </div>
+  </section>
+  <!-- Artisan Ice Cream Section Ends -->
+
+  <!--Singaporean Ice Cream Section Starts-->
+  <section class="menu" id="menu-singaporean">
+    <h1 class="heading">Singaporean Ice Cream</h1>
+
+    <div id="singaporean" class="slider-section">
+      <button class="arrow left">&#10094;</button>
+
+      <div class="slider">
+        <div class="box-container">
+          <div class="box">
+            <span class="new">Best Seller</span>
+            <div class="image">
+              <img src="/assets/singaporean/corn.png" alt="Corn" />
+            </div>
+            <div class="content">
+              <h3>Corn</h3>
+              <div class="price">Rp10.000,-</div>
+              <p>Sweet and creamy twist on a childhood favorite, with real corn flavor in every bite.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <span class="new">Best Seller</span>
+            <div class="image">
+              <img src="/assets/singaporean/chocolate.png" alt="Chocolate" />
+            </div>
+            <div class="content">
+              <h3>Chocolate</h3>
+              <div class="price">Rp10.000,-</div>
+              <p>Deep and rich cocoa flavor for the ultimate chocolate lover's dream.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="/assets/singaporean/pandan.png" alt="Pandan" />
+            </div>
+            <div class="content">
+              <h3>Pandan</h3>
+              <div class="price">Rp10.000,-</div>
+              <p>Fragrant and silky, this Southeast Asian favorite offers a uniquely tropical aroma.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="/assets/singaporean/vanilla.png" alt="Vanilla" />
+            </div>
+            <div class="content">
+              <h3>Vanilla</h3>
+              <div class="price">Rp10.000,-</div>
+              <p>Smooth, classic, and timeless — made with real vanilla for a pure, creamy delight.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="/assets/singaporean/strawberry.png" alt="Strawberry" />
+            </div>
+            <div class="content">
+              <h3>Strawberry</h3>
+              <div class="price">Rp10.000,-</div>
+              <p>Bright, fruity, and refreshingly sweet with real strawberry goodness.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="arrow right">&#10095;</button>
+    </div>
+  </section>
+  <!--Singaporean Ice Cream Section Ends-->
+
+  <!-- Beverages Section Starts -->
+  <section class="menu" id="menu-beverages">
+    <h1 class="heading">Beverages</h1>
+
+    <div id="beverages" class="slider-section">
+      <button class="arrow left">&#10094;</button>
+
+      <div class="slider">
+        <div class="box-container">
+          <div class="box">
+            <span class="new">New</span>
+            <div class="image">
+              <img src="/assets/beverages/semboi.jpg" alt="Sour Plum" />
+            </div>
+            <div class="content">
+              <h3>Sour Plum</h3>
+              <div class="price">Rp10.000,-</div>
+              <p>A bold blend of coconut water and tangy sour plum for a sweet-sour kick.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="/assets/beverages/coconut.jpg" alt="Coconut" />
+            </div>
+            <div class="content">
+              <h3>Coconut Original</h3>
+              <div class="price">Rp10.000,-</div>
+              <p>Pure, refreshing coconut water served straight for a naturally hydrating treat.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="/assets/beverages/lemon.jpg" alt="Lemon" />
+            </div>
+            <div class="content">
+              <h3>Lemon</h3>
+              <div class="price">Rp10.000,-</div>
+              <p>Zesty lemon meets coconut in this citrusy, thirst-quenching combo.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="/assets/beverages/marjan.jpg" alt="Marjan" />
+            </div>
+            <div class="content">
+              <h3>Marjan</h3>
+              <div class="price">Rp10.000,-</div>
+              <p>A tropical fusion of coconut and sweet Marjan syrup for a nostalgic, flavorful sip.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="arrow right">&#10095;</button>
+    </div>
+  </section>
+  <!-- Beverages Section Ends -->
+
+<!-- Testimonial Section Starts -->
+  <section class="menu" id="testimonial">
+    <h1 class="heading">Testimonials</h1>
+
+    <div class="container">
+      <div class="testimonials-content">
+        <div class="swiper js-testimonials-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide testimonials-item">
+              <div class="info">
+                <img src="assets/img/woman/woman1.jpg" alt="img" />
+                <div class="text-box">
+                  <h3 class="name">Jovan Christian</h3>
+                  <span class="job">Student</span>
+                </div>
+              </div>
+              <p>I thought it would just be another regular ice cream, but this one really surprised me!</p>
+              <div class="rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i
+                ><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+
+            <div class="swiper-slide testimonials-item">
+              <div class="info">
+                <img src="assets/img/woman/woman2.jpg" alt="img" />
+                <div class="text-box">
+                  <h3 class="name">Fyonna Napermanty</h3>
+                  <span class="job">Student</span>
+                </div>
+              </div>
+              <p>It tastes really good. Like, I could eat this every day and not get bored.</p>
+              <div class="rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i
+                ><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+
+            <div class="swiper-slide testimonials-item">
+              <div class="info">
+                <img src="assets/img/woman/woman3.jpg" alt="img" />
+                <div class="text-box">
+                  <h3 class="name">Jelvin Pho</h3>
+                  <span class="job">Web developer</span>
+                </div>
+              </div>
+              <p>A solid pick for any mood, honestly. Sweet, soft, creamy, and really enjoyable.</p>
+              <div class="rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i
+                ><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+
+            <div class="swiper-slide testimonials-item">
+              <div class="info">
+                <img src="assets/img/woman/woman1.jpg" alt="img" />
+                <div class="text-box">
+                  <h3 class="name">Weilen</h3>
+                  <span class="job">Student</span>
+                </div>
+              </div>
+              <p>Fresh taste, quality ingredients. Feels like something you’d keep reordering.</p>
+              <div class="rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i
+                ><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+
+            <div class="swiper-slide testimonials-item">
+              <div class="info">
+                <img src="assets/img/woman/woman2.jpg" alt="img" />
+                <div class="text-box">
+                  <h3 class="name">Adriano</h3>
+                  <span class="job">Student</span>
+                </div>
+              </div>
+              <p>The flavor is calm and balanced. That’s exactly what I like in a dessert.</p>
+              <div class="rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i
+                ><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination js-testimonials-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial Section Ends -->
+
+  <!-- Contact Section Start -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact</h2>
+
+    <div class="row">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0564365661567!2d104.0027327!3d1.1197275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98be0a33ef3a7%3A0x2835543bc736009!2sKantin%20UIB!5e0!3m2!1sen!2sid!4v1749476014482!5m2!1sen!2sid"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="contact-info">
+        <div class="info-row">
+          <img src="/assets/icon/phone.png" alt="Contact" class="info-image" />
+          <div class="text-info">
+            <h1>Contact</h1>
+            <h4>(+62) 895-1900-3827</h4>
+          </div>
+        </div>
+        <div class="info-row">
+          <img src="/assets/icon/location.png" alt="Address" class="info-image" />
+          <div class="text-info">
+            <h1>Address</h1>
+            <h4>Universitas Internasional Batam</h4>
+          </div>
+        </div>
+        <div class="info-row">
+          <img src="/assets/icon/availability.png" alt="Operational Hours" class="info-image" />
+          <div class="text-info">
+            <h1>Operational Hours</h1>
+            <h4>17:00 - 21:30 setiap Senin - Jumat</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+  <!-- Modal -->
+  <div id="contactModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+    <div class="modal-content">
+      <button class="close" aria-label="Close modal">&times;</button>
+      <h2 id="contactModalTitle">Send Message</h2>
+      <form id="messageForm">
+        <!-- Input Name -->
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+        <!-- Input Email -->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <!-- Input Message -->
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5"></textarea>
+        <!-- Submit Button -->
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <div id="formMessage" style="color: red;"></div>
+    </div>
+  </div>
+
+  <!-- Footer Section Starts -->
+  <footer class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#testimonial">Testimonial</a>
+      </div>
+
+      <div class="box">
+        <h3>Contact Us</h3>
+        <a href="https://wa.me/6289519003827" target="_blank">Phone</a>
+        <a href="https://mailto:coco.artisanicecream@gmail.com" target="_blank">Email</a>
+        <a href="#">Facebook</a>
+        <a href="https://instagram.com/coco.artisanicecream" target="_blank">Instagram</a>
+      </div>
+
+      <div class="box">
+        <h3>Our Location</h3>
+        <a href="https://g.co/kgs/bS6Zm3k">Universitas International Batam</a>
+        <a>Opening Hours: 17.00-21.30</a>
+        <a href="https://g.co/kgs/mEfUdw9">Mondial School</a>
+        <a>Opening Hours: 07.30-14.30</a>
+      </div>
+    </div>
+  </footer>
+  <div class="credit">2025 Cocoshake. All Rights Reserved.</div>
+  <!-- Footer Section Ends -->
+
+  <!-- Link SwiperJS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/public/script.js"></script>
+  <script src="/public/komen.js"></script>
+
+  <script>
+    // Initialize swiper for testimonials
+    const swiper = new Swiper(".js-testimonials-slider", {
+      grabCursor: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".js-testimonials-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        767: {
+          slidesPerView: 2,
+        },
+      },
+      autoplay: {
+        delay: 10000, // 10 seconds
+        disableOnInteraction: false, // Allow manual swiping without stopping autoplay
+      },
+    });
+
+    // JavaScript to handle modal functionality and scroll locking
+    const modal = document.getElementById("contactModal");
+    const btn = document.getElementById("openChatModal");
+    const closeBtn = modal.querySelector(".close");
+
+    function openModal() {
+      modal.style.display = "flex";
+      // Disable background scrolling
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeModal() {
+      modal.style.display = "none";
+      // Enable background scrolling
+      document.body.style.overflow = "";
+    }
+
+    btn.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent anchor default jump to top
+      openModal();
+    });
+
+    closeBtn.addEventListener("click", function () {
+      closeModal();
+    });
+
+    window.addEventListener("click", function (event) {
+      if (event.target === modal) {
+        closeModal();
+      }
+    });
+
+    // Optional: Close modal on ESC key (accessibility improvement)
+    window.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && modal.style.display === "flex") {
+        closeModal();
+      }
+    });
+  </script>
+  
+</body>
+</html>
